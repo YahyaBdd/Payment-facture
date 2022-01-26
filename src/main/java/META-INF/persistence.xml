@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="japa2">
+	<class>JPA.Client</class>
+	<class>JPA.Agent</class>
+	<properties>
+		<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://ec2-54-229-47-120.eu-west-1.compute.amazonaws.com/d2hpb4b06gtq5c?ssl=required"/>
+            <property name="javax.persistence.jdbc.user" value="pfjxzfsmaanawr"/>
+            <property name="javax.persistence.jdbc.password" value="4DE2D66482C39FD2EF86A772557874E030DCF1BF8E345EDD40E6C840F5FE215E5505A2D87949DCF81716228FDF6E206659C7B708E7B3E65C8BD73974A1161A5775A160A8BB30F69DE8F40D0A4255E3E5"/>
+            <property name="eclipselink.logging.logger" value="JavaLogger"/>
+		</properties>
+	</persistence-unit>
+</persistence>
